@@ -17,9 +17,9 @@ global.github = process.env.GITHUB || "https://github.com/Astropeda/Asta-Md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/P37NWrz.jpeg";
-global.devs = "2348039607375";
-global.sudo = process.env.SUDO || "2348039607375";
-global.owner = process.env.OWNER_NUMBER || "2348039607375";
+global.devs = "27672633675";
+global.sudo = process.env.SUDO || "27672633675";
+global.owner = process.env.OWNER_NUMBER || "27672633675";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "!",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴀsᴛᴀ ᴍᴅ",
-  author: process.env.PACK_AUTHER || "ᴀsᴛᴀ ᴍᴅ",
+  caption: process.env.CAPTION || "P A I N",
+  author: process.env.PACK_AUTHER || "P A I N",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴀsᴛᴀ ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ᴀsᴛᴀ",
+  botname: process.env.BOT_NAME || "P A I N",
+  ownername: process.env.OWNER_NAME || "...",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "ASTA").toUpperCase(),
 };
 global.rank = "updated";
